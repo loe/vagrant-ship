@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Vagrant::Ship::VERSION
   spec.authors       = ["W. Andrew Loe III"]
   spec.email         = ["andrew@andrewloe.com"]
-  spec.description   = %q{Export a Vagrant box as OVF.}
+  spec.description   = %q{Export a Vagrant box as an OVF.}
   spec.summary       = %q{Export a Vagrant box as an OVF.}
   spec.homepage      = "https://github.com/loe/vagrant-ship"
   spec.license       = "MIT"
