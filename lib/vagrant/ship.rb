@@ -10,11 +10,6 @@ module Vagrant
       distribution as a Virtual Appliance.
       DESC
 
-      config(:ship, :command) do
-        require_relative 'ship/config'
-        Config
-      end
-
       command(:ship) do
         require_relative 'ship/command'
         Command
